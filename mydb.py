@@ -6,7 +6,8 @@ database = mysql.connector.connect(
     passwd = 'root',
 )
 
-
 cursorObject = database.cursor()
 
 cursorObject.execute("CREATE DATABASE crmdb")
+
+print("all done!")
